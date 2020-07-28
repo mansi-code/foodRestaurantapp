@@ -46,10 +46,10 @@ public class Main3Activity extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
-                                Toast.makeText(Main3Activity.this, "registration successful", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(Main3Activity.this, "registration unsuccessful", Toast.LENGTH_SHORT).show();
                                 startActivity(new Intent(Main3Activity.this,MainActivity.class));
                             } else {
-                                Toast.makeText(Main3Activity.this, "registration unsuccessful", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(Main3Activity.this, "registration successful", Toast.LENGTH_SHORT).show();
                             }
                         }
                     });

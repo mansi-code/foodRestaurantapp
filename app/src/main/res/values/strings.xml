@@ -1,3 +1,41 @@
 <resources>
-    <string name="app_name">My Application</string>
+
+    <string name="app_name">DESI-MEALZ</string>
+    <string name="description">Soul Food: thats what DESI-MEALZ is all about.We want our customers to have the best of Indian food .
+    We serve sumptous vegetarian cuisine at a very low price to students through our #lunchbox  along with #dineAtCanteen services.
+    </string>
+    <string name="cart">PLACE ORDER  </string>
+    <string name="cb"> </string>
+    <string name="qty">QUANTITY </string>
+    <string name="rj">RAJMA CHAWAL</string>
+    <string name="name">NAME</string>
+    <string name="phn">PHONE NUMBER</string>
+    <string name="location">LOCATION</string>
+    <string name="des">DESCRIPTION</string>
+    <string name="edit">EDIT PROFILE</string>
+
+    <string name="entername">ENTER NAME</string>
+
+    <string name="enterphn">ENTER PHN No.</string>
+
+    <string name="enterloc">ENTER LOCATION</string>
+
+    <string name="enterviews">DESCRIBE YOURSELF</string>
+
+    <string name="submit">SUBMIT</string>
+    <string name="b1">MESSAGE</string>
+    <string name="b2">CALL</string>
+    <string name="b3">BROWSER</string>
+    <string name="hello">TO SEND FEEDBACK ::
+    MESSAGE OR CALL ON : 8800414142
+        OR VISIT US ON WWW.DESIMEALZ.COM
+    </string>
+    <string name="tv">Hello User</string>
+    <string name="tv2">Enter Location</string>
+    <string name="tv3">Phone number</string>
+    <string name="tv4">Id</string>
+    <string name="e1">location</string>
+    <string name="b">Add</string>
+
+
 </resources>

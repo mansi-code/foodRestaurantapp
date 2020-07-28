@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         forgotPassword = (TextView)findViewById(R.id.tvForgotPassword);
 
         Info.setText("NO OF ATTEMPTS REMAINING:5");
-
+Intent i = getIntent();
         firebaseauth = FirebaseAuth.getInstance();
         progressdialog = new ProgressDialog(this);
 
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         if(user!= null)
         {
             finish();
-            startActivity(new Intent(MainActivity.this,Main2Activity.class));
+            startActivity(new Intent(MainActivity.this,MainActivity4.class));
         }
 
         Login.setOnClickListener(new View.OnClickListener() {
@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
                 if(task.isSuccessful()) {
                     progressdialog.dismiss();
                     Toast.makeText(MainActivity.this,"login successful",Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(MainActivity.this,Main2Activity.class));
+                    startActivity(new Intent(MainActivity.this,MainActivity4.class));
                 }else{
                     Toast.makeText(MainActivity.this,"login failed",Toast.LENGTH_SHORT).show();
                     count--;
